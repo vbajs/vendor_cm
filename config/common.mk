@@ -75,32 +75,32 @@ endif
 
 # LayersManager
 PRODUCT_COPY_FILES += \
-    vendor/phoenix/prebuilt/app/LayersManager/LayersManager.apk:system/app/LayersManager/LayersManager.apk
+    vendor/cm/prebuilt/app/LayersManager/LayersManager.apk:system/app/LayersManager/LayersManager.apk
 
 # LSpeed
 PRODUCT_COPY_FILES += \
-    vendor/phoenix/prebuilt/app/LSpeed/LSpeed.apk:system/app/LSpeed/LSpeed.apk
+    vendor/cm/prebuilt/app/LSpeed/LSpeed.apk:system/app/LSpeed/LSpeed.apk
 
 # VLC
 PRODUCT_COPY_FILES += \
-    vendor/phoenix/prebuilt/app/VLC/VLC.apk:system/app/VLC/VLC.apk \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libvlcjni.so:system/lib/libvlcjni.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libanw.10.so:system/lib/libanw.10.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libanw.13.so:system/lib/libanw.13.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libanw.14.so:system/lib/libanw.14.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libanw.18.so:system/lib/libanw.18.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libanw.21.so:system/lib/libanw.21.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libiomx.10.so:system/lib/libiomx.10.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libiomx.13.so:system/lib/libiomx.13.so \
-    vendor/phoenix/prebuilt/app/VLC/lib/arm/libiomx.14.so:system/lib/libiomx.14.so
+    vendor/cm/prebuilt/app/VLC/VLC.apk:system/app/VLC/VLC.apk \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libvlcjni.so:system/lib/libvlcjni.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libanw.10.so:system/lib/libanw.10.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libanw.13.so:system/lib/libanw.13.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libanw.14.so:system/lib/libanw.14.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libanw.18.so:system/lib/libanw.18.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libanw.21.so:system/lib/libanw.21.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libiomx.10.so:system/lib/libiomx.10.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libiomx.13.so:system/lib/libiomx.13.so \
+    vendor/cm/prebuilt/app/VLC/lib/arm/libiomx.14.so:system/lib/libiomx.14.so
 
 # ESFileExplorer
 PRODUCT_COPY_FILES += \
-    vendor/phoenix/prebuilt/app/ESFileExplorer/ESFileExplorer.apk:system/app/ESFileExplorer/ESFileExplorer.apk
+    vendor/cm/prebuilt/app/ESFileExplorer/ESFileExplorer.apk:system/app/ESFileExplorer/ESFileExplorer.apk
 
 # SapphireUI
 PRODUCT_COPY_FILES += \
-    vendor/phoenix/prebuilt/app/SapphireUI/SapphireUI.apk:system/app/SapphireUI/SapphireUI.apk
+    vendor/cm/prebuilt/app/SapphireUI/SapphireUI.apk:system/app/SapphireUI/SapphireUI.apk
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
